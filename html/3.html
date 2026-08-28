@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            welcome page
+        </title>
+        <style>
+            body{
+                background-color:lightblue;
+                text-align:center;
+                font-family:arial;
+                padding-top:50px;
+            }
+            h1{
+                color:darkblue;
+                font-size:40px;
+            }
+            p{
+                color:darkgreen;
+                font-size:20px;
+            }
+            button{
+                background-color:darkblue;
+                color:white;
+                font-size:20px;
+                padding: 10px 20px;
+                border:none;
+            }
+            #message{
+                color:red;
+                font-size:25px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <h1>
+            Welcome to web technology
+        </h1>
+        <p>
+            Learn html and css with fun!
+        </p>
+        <button onclick="showMessage()">click Me!</button>
+        <p id="message"></p>
+        <script>
+            function showMessage(){
+                document.getElementByld("message").innerHTML= "Grate! you are ready to learn web technology!";
+            }
+        </script>
+    </body>
+</html>
