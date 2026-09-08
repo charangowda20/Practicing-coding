@@ -29,14 +29,16 @@ else:
 
     #bus ticket
 gender=input("enter gender: ")
-age=int(input("enter passanger age"))
+age=int(input("enter passanger age: "))
 if gender=="female":
     print("free ticket")
 elif gender=="male":
     print("pay money for  ticket")
-elif age>=5:
-    print(" pay ticket for money")
 elif age<5:
     print("free ticket")
+elif age<=12:
+    print(" pay half ticket")
+elif age>12:
+    print(" pay full ticket")
 else:
     print("ticket not found")

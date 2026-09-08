@@ -9,4 +9,3 @@ while trails<=3:
         break
     else:
         print("incorrect")
-print("please try again after 10 mints")

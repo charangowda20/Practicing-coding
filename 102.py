@@ -34,7 +34,7 @@ print(full_name)
 greeting= "hello " * 3
 print(greeting)
 
-message = "Hello \nWORLD \n"
+message = "HelloWORLD"
 print(message.strip())
 print(message.upper())
 print(message.lower())
